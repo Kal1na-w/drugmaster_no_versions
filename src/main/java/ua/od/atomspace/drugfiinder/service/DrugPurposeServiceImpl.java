@@ -10,20 +10,24 @@ import java.util.List;
 
 @Service
 public class DrugPurposeServiceImpl implements DrugPurposeService {
-
-    private SymptomDrugDao symptomDrugDao;
-
-    @Autowired
-    public DrugPurposeServiceImpl(SymptomDrugDao symptomDrugDao) {
-        this.symptomDrugDao = symptomDrugDao;
-    }
-
     @Override
     public Drug findDrugPurpose(String drugName) {
-        List<Symptom> purposeByDrugName = symptomDrugDao.findPurposeByDrugName(drugName);
-        return Drug.builder()
-                .purposeList(purposeByDrugName)
-                .name(drugName)
-                .build();
+        return null;
     }
+
+//    private SymptomDrugDao symptomDrugDao;
+//
+//    @Autowired
+//    public DrugPurposeServiceImpl(SymptomDrugDao symptomDrugDao) {
+//        this.symptomDrugDao = symptomDrugDao;
+//    }
+//
+//    @Override
+//    public Drug findDrugPurpose(String drugName) {
+//        List<Symptom> purposeByDrugName = symptomDrugDao.findPurposeByDrugName(drugName);
+//        return Drug.builder()
+//                .purposeList(purposeByDrugName)
+//                .name(drugName)
+//                .build();
+//    }
 }
