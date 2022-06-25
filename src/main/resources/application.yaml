@@ -4,7 +4,10 @@ server:
 
 spring:
   datasource:
-    url: 'jdbc:mysql://localhost:3306/drug_finder'
+    url: 'jdbc:mysql://localhost:3306/v2_drug'
     username: 'newuser'
     password: 'password'
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+jwt:
+  secret: hgjfvbjlyfgjhbjkyutfhgvbnmhjgyturfgdhvhjkuyturyfghjgfh

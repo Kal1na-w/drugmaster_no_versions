@@ -1,12 +1,7 @@
 package ua.od.atomspace.drugfiinder.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ua.od.atomspace.drugfiinder.dao.SymptomDrugDao;
-import ua.od.atomspace.drugfiinder.model.Drug;
-import ua.od.atomspace.drugfiinder.model.Symptom;
-
-import java.util.List;
+import ua.od.atomspace.drugfiinder.dao.model.Drug;
 
 @Service
 public class DrugPurposeServiceImpl implements DrugPurposeService {

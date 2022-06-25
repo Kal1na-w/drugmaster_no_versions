@@ -4,7 +4,7 @@ import org.jdbi.v3.core.Jdbi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ua.od.atomspace.drugfiinder.dao.repo.DrugRepository;
-import ua.od.atomspace.drugfiinder.model.Drug;
+import ua.od.atomspace.drugfiinder.dao.model.Drug;
 
 import java.util.List;
 

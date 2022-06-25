@@ -5,8 +5,7 @@ import org.jdbi.v3.sqlobject.customizer.Bind;
 import org.jdbi.v3.sqlobject.customizer.BindBean;
 import org.jdbi.v3.sqlobject.statement.SqlQuery;
 import org.jdbi.v3.sqlobject.statement.SqlUpdate;
-import org.springframework.context.annotation.Bean;
-import ua.od.atomspace.drugfiinder.model.Drug;
+import ua.od.atomspace.drugfiinder.dao.model.Drug;
 
 import java.util.List;
 

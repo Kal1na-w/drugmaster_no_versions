@@ -1,4 +1,4 @@
-package ua.od.atomspace.drugfiinder.model;
+package ua.od.atomspace.drugfiinder.dao.model;
 
 import lombok.*;
 
